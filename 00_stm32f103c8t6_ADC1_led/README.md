@@ -13,3 +13,5 @@ arm-none-eabi-ld -T linker.ld -o main.elf crt.o main.o
 arm-none-eabi-objcopy -O binary main.elf main.bin
 # flash STM32F103C8T6
 st-flash write main.bin 0x8000000
+
+https://www.youtube.com/watch?v=nrV3ikRP9nI
